@@ -22,7 +22,4 @@ test:
 
 production:
   <<: *default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
-#  database: db/production.sqlite3 #Delete? or keep it??
+  database: db/production.sqlite3
